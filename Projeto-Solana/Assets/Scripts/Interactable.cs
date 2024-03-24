@@ -20,7 +20,7 @@ public class Interactable : MonoBehaviour
     {
         if (isInRange)
         {
-            if (Input.GetKeyDown(interactKey))
+            if (Input.GetKeyDown(KeyCode.Mouse0))
             {
                 interactAction.Invoke();
             }

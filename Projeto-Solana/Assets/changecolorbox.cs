@@ -25,7 +25,7 @@ public class changecolorbox : MonoBehaviour
 
     public void NextColor()
     {
-        if (x < 1)
+        if (x < 2)
         {
             x++;
         }
@@ -35,4 +35,5 @@ public class changecolorbox : MonoBehaviour
         }
     }
 
+    
 }
